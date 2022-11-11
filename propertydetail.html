@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style type="text/css">
+body{
+	margin: 0;
+}
+.header{
+	background-image: url("img/bg-3.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: 100% 600px;
+	height: 500px;
+}
+.header-menuh3 .dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 6px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.header-menuh3 {
+  float: right;
+  position: relative;
+  right: 160px;
+  display: inline-block;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.header-menuh3 .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.header-menuh3 .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.header-menuh3:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.header-menuh3:hover .dropbtn {color: #808080;}
+
+.h3upper .pull-left{
+  position: relative;
+  top: 18px;
+  left: 150px;
+}
+.h3upper .pull-left i{
+  padding-right: 12px;
+    color: #fff;
+  opacity: 0.60;
+}
+.h3upper .pull-left a:hover i{
+  opacity: 0.90;
+}
+.h3upper ul {
+  list-style: none;
+}
+.h3upper ul li{
+  display: inline;
+  padding-left: 20px;
+  position: relative;
+  right: 150px; 
+}
+.h3upper .pull-right i{
+  color: #fff;
+  opacity: 0.60;
+}
+.h3upper .pull-right a:hover i{
+  opacity: 0.90;
+}
+a:link{
+  text-decoration: none;
+}
+.home3head hr{
+  width: 80%;
+}
+.home3head{
+  padding-bottom: 10px;
+}
+
+.titleaprt h3{
+	font-size: 38px;
+	color: white;
+	margin-left: 150px;
+	margin-top: 180px;
+}
+.titleaprt a{
+	color: white;
+	margin-left: 150px;
+	position: relative;
+	bottom: 30px;
+}
+.aprtlink:hover a{
+	color: orange;
+}
+.titleaprt span{
+	color: orange;
+	margin-left: 220px;
+	position: relative;
+	bottom: 50px;
+}
+.propertydet .pull-left .title{
+	margin-left: 130px;
+	margin-top: 50px;
+}
+.title h2{
+	font-weight: 700;
+    color: #444;
+    font-size: 30px;
+}
+.title p{
+	font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .60px;
+    color: #666;
+    line-height: 0px
+}
+.title .pull-right i{
+	margin-left: 390px;
+	position: relative;
+	top: 30px;
+}
+.title .pull-right i span{
+	padding: 4px 11px;
+	font-size: 14px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin-top:200px;
+  margin-left: 130px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 20px;
+  margin-top: -22px;
+  color: #898989;
+  background-color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: orange;
+}
+
+/* Caption text */
+.textimg img {
+  text-align: center;
+  position: relative;
+  left: 330px;
+  bottom: 140px;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.pull-left .pdesc h4{
+	font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #484848;
+    margin-left: 130px;
+}
+.pull-left .pdesc p{
+	font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #484848;
+    margin-left: 130px;
+    width: 950px;
+}
+.pull-left .pdesc hr{
+	margin-left: 130px;
+	width: 960px;
+}
+.pull-left .pover h4{
+	font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #484848;
+    margin-left: 130px;
+}
+.pull-left .pover .pull-left .fa{
+	color: orange;
+		margin-left: 330px;
+}
+.pull-left .pover .pull-left .fa span{
+    font-size: 15px;
+    font-family: Poppins, "Open Sans", sans-serif;
+    color: #898989;
+}
+.pull-left .pover .pull-right .fa{
+	color: orange;
+	margin-right: 150px;
+}
+.pull-left .pover .pull-right .fa span{
+    font-size: 15px;
+    font-family: Poppins, "Open Sans", sans-serif;
+    color: #898989;
+}
+.pull-left .pover .pull-left hr{
+	margin-left: 330px;
+	width: 300px;
+	color: #f7f7f7;
+	opacity: 0.30;
+}
+.pull-left .pover .pull-right hr{
+width: 320px;
+margin-right: 80px;
+color: #f7f7f7;
+opacity: 0.30;
+}
+
+.pull-left .pamen h4{
+	font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #484848;
+    margin-left: 130px;
+}
+.pull-left .pamen .pull-left .fa{
+	color: orange;
+}
+.pull-left .pamen .pull-left img{
+	margin-left: 330px;
+	opacity: 0.60;
+    font-size: 30px;
+    padding: 4px 8px;
+    font-weight: 400;
+    background: #f5f5f5;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border-radius: 24px;
+    border: 1px solid #e6e6e6;
+    margin-right: 5px;
+}
+.pull-left .pamen .pull-left i span{
+    font-size: 18px;
+    font-family: Poppins, "Open Sans", sans-serif;
+    color: #898989;
+}
+.pull-left .pamen .pull-right .fa{
+	color: orange;
+	margin-right: 150px;
+}
+.pull-left .pamen .pull-right img{
+	opacity: 0.60;
+    font-size: 30px;
+    padding: 4px 8px;
+    font-weight: 400;
+    background: #f5f5f5;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border-radius: 24px;
+    border: 1px solid #e6e6e6;
+    margin-right: 5px;
+}
+.pull-left .pamen .pull-right i span{
+    font-size: 18px;
+    font-family: Poppins, "Open Sans", sans-serif;
+    color: #898989;
+}
+.pull-left .pamen .pull-left hr{
+	margin-left: 330px;
+	width: 300px;
+	color: #f7f7f7;
+	opacity: 0.30;
+}
+.pull-left .pamen .pull-right hr{
+width: 320px;
+margin-right: 80px;
+color: #f7f7f7;
+opacity: 0.30;
+}
+
+/*Maps part*/
+.propertydet .pull-left .mapimg{
+	position: relative;
+	top:70px;
+	right: 500px; 
+}
+
+.propertydet .pull-left .mapimg h4{
+	font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #484848;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.propertydet .pull-left .mapimg img{
+	position: relative;
+	top:0px;
+	right: 0px; 
+	left: 200px;
+}
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImgs {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+#myImgs:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.propertydet .pull-left .landval h4,.simip h4{
+	font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #484848;
+    margin-left: 130px;
+}
+.propertydet .pull-left .landval p{
+    margin-left: 330px;
+    font-weight: 400;
+    color: #484848;
+    opacity: 0.90;	
+}
+.propertydet .pull-left .landval p span{
+	font-size: 14px;
+	color: #484848;
+	border: 6px solid #898989;
+	padding: 20px 20px;
+	border-radius: 50%;
+	text-align: center;
+}
+.propertydet .pull-left .landval p span:hover{
+	font-size: 18px;
+	border: 4px solid #898989;
+}
+.propertydet .pull-left .lfac h4{
+	font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #484848;
+    margin-left: 130px;
+}
+.propertydet .pull-left .lfac p{
+	margin-left: 330px;
+    font-weight: 400;
+    color: #484848;
+}
+.propertydet .pull-left .lfac p #port{
+	border: 1px solid #eeeeee;
+	padding: 10px 30px 10px 0px;
+}
+.propertydet .pull-left .lfac p #stop{
+	border: 1px solid #eeeeee;
+	padding: 10px 30px 10px 0px;
+	margin-left: 20px;
+}
+.propertydet .pull-left .lfac p #km{
+	padding: 10px 80px 10px 10px;
+}
+.propertydet .pull-left .lfac p #min{
+    padding: 10px 90px 10px 10px;	
+}
+.propertydet .pull-left .vid h4,.loc h4,.reply h4{
+	font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #484848;
+    margin-left: 130px;
+}
+.propertydet .pull-left .vid iframe,.loc iframe{
+	margin-left: 330px;
+	position: relative;
+	bottom: 40px;
+}
+.propertydet .pull-left .simip .col-md-3{
+  display: inline-block;
+  width: 40%;
+}
+.propertydet .pull-left .simip .pimg{
+  width: 430px;
+  height: 460px;
+  margin: 0px auto 30px;
+  border: 2px solid #e9e9e9;
+  padding-top: 0px;
+  transition: all .4s;
+  margin-left: 130px;
+}
+.propertydet .pull-left .simip .pimg h4{
+   color:#242424;
+   font-size: 14px;
+   font-weight: 600;
+   letter-spacing: .60px;
+   position: relative;
+   right: 20%;
+}
+.propertydet .pull-left .simip .col-md-3 .rent{
+  border: 2px solid #444;
+  background-color: #444;
+  width: 75px;
+  height: 30px;
+  padding-top: 5px;
+  color: white;
+  font-size: 11px;
+  position: relative;
+  top: 225px;
+  left: 190px;
+}
+.propertydet .pull-left .simip .pimg h5{
+   color:#242424;
+   font-size: 14px;
+   font-weight: 600;
+   letter-spacing: .60px;
+   position: relative;
+   right: 10%;
+}
+.propertydet .pull-left .simip .pimg ul{
+  padding-bottom: 25px;
+  position: relative;
+  margin-bottom: 22px; 
+}
+.propertydet .pull-left .simip .pimg ul li{
+  display: inline;
+}
+.propertydet .pull-left .simip .pimg ul li i{
+  padding-left: 30px;
+  color: #898989;
+  font-size: 15px;
+  opacity: 0.60;
+  position: relative;
+  right: 6%;
+}
+.propertydet .pull-left .simip .pimg h3{
+  padding-left: 35px;
+}
+.propertydet .pull-left .simip .pimg span{
+  border: 1px solid #ffeec4;
+  background-color: #ffeec4;
+  padding: 3px 10px;
+  color: #b7ab8d;
+  font-size: 12px;
+  border-radius: 3px;
+  position: relative;
+  bottom: 1px
+}
+.propertydet .pull-left .simip .pimg button{
+  position: relative;
+  right: 40px;
+  top: 12px;
+  padding: 0px 13px;
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 34px;
+  width: 140px;
+  background-color: #FFCC00;
+  color: white;
+  border: 2px solid #FFCC00;
+}
+.propertydet .pull-left .simip .pimg a:hover button{
+  background-color: white;
+  color: #FFCC00;
+}
+.propertydet .pull-left .simip .pimg:hover .image{
+  filter: brightness(70%);
+}
+
+.propertydet .pull-left .reply p{
+    margin-left: 130px;
+    font-weight: 400;
+    color: #484848;
+    opacity: 0.90;	
+}
+.propertydet .pull-left .reply .pull-left{
+    margin-left: 130px;
+    font-weight: 400;
+    color: #484848;
+    opacity: 0.90;	
+}
+.propertydet .pull-left .reply .pull-right{
+    margin-right: 190px;
+    font-weight: 400;
+    color: #484848;
+    opacity: 0.90;	
+}
+.propertydet .pull-left .reply .pull-left input,.pull-right input{
+	height: 54px;
+    border: 1px solid #e9e9e9;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    background: #f8f8f8;
+    padding: 0px 190px 0px 30px;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    color: #8c8c8c;
+    text-transform: uppercase;
+}
+.propertydet .pull-left .reply textarea{
+    margin-left: 130px;
+    height: 200px;
+    width: 75%;
+    border: 1px solid #e9e9e9;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    background: #f8f8f8;
+    padding: 0px 25px;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    color: #8c8c8c;
+    text-transform: uppercase;
+}
+.propertydet .pull-left .reply .bt button{
+	margin-left: 130px;
+	margin-top: 20px;
+	color: white;
+	background-color: orange;
+	padding: 10px 18px;
+	border: 1px solid orange;
+	border-radius: 5px;
+}
+.propertydet .pull-left .reply button:hover{
+	background-color: green;
+	border: 1px solid green;
+}
+
+/*Right part*/
+
+.propertydet .pull-right .persons{
+	width: 295px;
+	border: 1px solid #dcdcdc;
+	padding: 30px 30px;
+	margin-top: 75px;
+	margin-right: 60px;
+}
+.propertydet .pull-right .persons h5{
+    font-weight: 400;
+    font-size: 18px;
+    color: #555;
+}
+.propertydet .pull-right .persons h6{
+	font-weight: 200;
+    font-size: 14px;
+    color: #555;
+    margin-top: 0px;
+    line-height: 0px;
+}
+.propertydet .pull-right .persons h6 span{
+	font-weight: 100;
+    font-size: 14px;
+    color: #555;
+    opacity: 0.70;
+}
+.propertydet .pull-right .persons i{
+	font-weight: 200;
+    font-size: 14px;
+    color: #555;
+    opacity: 0.60;
+    border: 1px solid #dcdcdc;
+    padding: 4px 8px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 20px;
+}
+.propertydet .pull-right .categ,.contc,.prop{
+	border: 1px solid #dcdcdc;
+	padding: 30px 30px;
+	margin-top: 15px;
+	margin-right: 95px;
+}
+.propertydet .pull-right .categ h5{
+    line-height: 0px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #444;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+}
+.propertydet .pull-right .categ h6,.loca h6{
+	line-height: 10px;
+    font-size: 15px;
+    font-family: Poppins, "Open Sans", sans-serif;
+    color: orange;
+}
+.propertydet .pull-right .categ a:hover h6,.loca a:hover h6{
+	color: #898989;
+}
+.propertydet .pull-right .ptype,.loca,.calc{
+	border: 1px solid #dcdcdc;
+	padding: 30px 30px;
+	margin-top: 15px;
+	margin-right: 95px;
+}
+.propertydet .pull-right .ptype h5,.loca h5,.contc h5,.prop h5,.calc h5{
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #444;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+
+}
+.propertydet .pull-right .ptype i{
+	margin-left: 170px;
+}
+.propertydet .pull-right .ptype a{
+color: #797979;
+}
+.propertydet .pull-right .ptype hr{
+color: #797979;
+opacity: 0.50;
+}
+.propertydet .pull-right .ptype a:hover{
+	color: orange;
+}
+.propertydet .pull-right .contc input,.contc textarea{
+    height: 46px;
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 0px 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-color: #dedede;
+    color: #8c8c8c;
+    text-transform: uppercase;
+    font-size: 13px;
+    box-shadow: none;
+}
+.propertydet .pull-right .contc button{
+	text-align: center;
+	margin-left: 50px;
+	padding: 8px 8px;
+	background-color: orange;
+	color: white;
+	border-color: orange;
+}
+.propertydet .pull-right .prop a{
+    color: #555;
+    font-weight: 400;
+}
+.propertydet .pull-right .prop a span{
+    color: #555;
+    font-weight: 100;
+    font-size: 12px;
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+}
+.propertydet .pull-right .calc input{
+	padding: 2px 4px; 
+}
+.propertydet .pull-right .calc .fa{
+	border: 1px solid #ddd;
+	padding: 17px 8px 19px 8px;
+}
+.propertydet .pull-right .calc button{
+	color: white;
+	background-color: orange;
+	border: 1px solid orange;
+	padding: 10px 16px;
+}
+
+/*Footer Section Begin*/
+footer{ 
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-family: stroke-dasharray ;
+  color: white;
+  background-color: black;
+  box-shadow: 0px 10px black;
+  opacity: 0.80;
+  width: 100%;
+  display: inline-block;
+  margin-top: 80px;
+}
+.container .footer-leftl,
+.container .footer-leftr,
+.container .footer-rightl,
+.container .footer-rightr{
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.container .footer-leftl{
+  position: relative;
+  bottom: 110px;
+  left: 60px;
+
+}
+.container .footer-leftr{
+  position: relative;
+  bottom: 10px;
+  left: 140px;
+}
+.container .footer-rightl{
+  position: relative;
+  bottom: 148px;
+  left: 280px;
+}
+.container .footer-rightr{
+  position: relative;
+  bottom: 126px;
+  left: 400px;
+}
+.container .fsocial ul li{
+  list-style: none;
+  display: inline;
+  position: relative;
+  right: 38px;
+}
+.container .fsocial ul li i{
+  opacity: 0.60;
+  font-size: 18px; 
+  color: #fff;
+  padding-top: 15px;
+}
+a:link{
+    text-decoration: none;
+}
+.container .dash ul li{
+ position: relative;
+  right: 40px;
+  padding-top: 10px;
+  font-size: 16px;
+}
+.container .dash ul li a{
+  color: #757575;
+  padding-top: 10px;
+}
+.container .categ ul li{
+ position: relative;
+  right: 40px;
+  padding-top: 10px;
+    font-size: 16px;
+}
+.container .categ ul li a{
+  color: #757575;
+}
+.container .quick ul li{
+ position: relative;
+  right: 40px;
+  padding-top: 10px;
+    font-size: 16px;
+}
+.container .quick ul li a{
+  color: #757575;
+}
+.container ul li:hover a{
+  color: yellow;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+<div class="home3head" style="background-color: rgba(0,0,0,0.4);">
+	<div class="ind">
+  <div class="h3upper">
+    <div class="pull-left">
+      <a href=""><i class="fa fa-phone">&nbsp;&nbsp;(123) 456 78 90</i></a>
+      <a href=""><i class="fa fa-envelope-o">&nbsp;&nbsp;contact@example.com</i></a>
+    </div>
+
+    <div class="pull-right">
+
+      <ul class="h3upper-social">
+        <li>
+          <a href="#">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-google-plus"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-pinterest"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+<br><br><br>
+  <hr>
+<img src="img/logo.png" style="padding-left: 150px;"> 
+<div class="header-menuh3">
+  <button class="dropbtn">CONTACT</button>
+   <div class="dropdown-content">
+    <a href="contact.html">CONTACT US</a>
+    <a href="contact2.html">CONTACT US 2</a>
+  </div>
+</div>
+<div class="header-menuh3">
+  <button class="dropbtn">SUBMISSIONS</button>
+   <div class="dropdown-content">
+    <a href="createprop.html">CREATE PROPERTY</a>
+    <a href="myprop.html">MY PROPERTY</a>
+    <a href="editprop.html">EDIT PROPERTY</a>
+    <a href="editagen.html">EDIT AGENT PROFILE</a>
+    <a href="edituser.html">EDIT USER PROFILE</a>
+    <a href="changepass.html">CHANGE PASSWORD</a>
+    <a href="payment.html">PAYMENTS</a>
+    <a href="regis.html">REGISTER</a>
+    <a href="login.html">LOGIN</a>
+    <a href="index.html">LOGOUT</a>
+  </div>
+</div>
+<div class="header-menuh3">
+  <button class="dropbtn">PAGES</button>
+   <div class="dropdown-content">
+    <a href="agency.html">AGENCIES</a>
+    <a href="perfectagency.html">AGENCY DETAIL</a>
+    <a href="agents.html">AGENTS</a>
+    <a href="andrew.html">AGENT DETAIL</a>
+    <a href="blog.html">BLOG</a>
+    <a href="">404</a>
+  </div>
+</div>
+<div class="header-menuh3">
+  <button class="dropbtn">PROPERTIES</button>
+   <div class="dropdown-content">
+    <a href="properties.html">ROW LISTING</a>
+    <a href="#">PROPERTY DETAIL</a>
+    <a href="index.html#locat">LOCATIONS</a>
+    <a href="apart.html">PROPERTY TYPE</a>
+  </div>
+</div>
+<div class="header-menuh3">
+   <button class="dropbtn">HOME</button>
+   <div class="dropdown-content">
+    <a href="index.html">HOME PAGE 1</a>
+    <a href="home2.html">HOME PAGE 2</a>
+    <a href="home3.html">HOME PAGE 3</a>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="titleaprt">
+	<h3>North Greenwich Street</h3>
+	<i><div class="aprtlink"><a href="index.html">Home</a></div><span>North Greenwich Street.</span></i>
+
+</div>
+</div>
+
+<div class="propertydet">
+
+<div class="pull-left">
+	<div class="title">
+		<div class="pull-left">
+		<h2>North Greenwich Street</h2>
+		<p>$ 244</p>
+	</div>
+	<div class="pull-right">
+		<i><span style="border:1px solid orange;background-color: orange;color:white;">FOR RENT </span> &nbsp;&nbsp;<span style="border:1px solid black;background-color: #66676b;color:white;">APART.</span></i>
+	</div>
+	</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="img/img-1.jpg" style="width:100% ;height:600px;">
+  <div class="textimg">
+  	<img width="90" height="90" src="img/img-1.jpg" alt="" style="border:1px solid orange;">
+  	<img width="90" height="90" src="img/img-2.jpg" alt="" style="filter: brightness(70%);">
+  	<img width="90" height="90" src="img/img-5.jpg" alt="" style="filter: brightness(70%);">
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img/img-2.jpg" style="width:100%">
+  <div class="textimg">
+  	<div class="textimg">
+  	<img width="90" height="90" src="img/img-1.jpg" alt="" style="filter: brightness(70%);">
+  	<img width="90" height="90" src="img/img-2.jpg" alt="" style="border:1px solid orange;">
+  	<img width="90" height="90" src="img/img-5.jpg" alt="" style="filter: brightness(70%);">
+  </div>
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img/img-5.jpg" style="width:100%">
+  <div class="textimg">
+  	<div class="textimg">
+  	<img width="90" height="90" src="img/img-1.jpg" alt="" style="filter: brightness(70%);">
+  	<img width="90" height="90" src="img/img-2.jpg" alt="" style="filter: brightness(70%);">
+  	<img width="90" height="90" src="img/img-5.jpg" alt="" style="border:1px solid orange;">
+  </div>
+</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<div class="pdesc">
+<h4><span><u style="text-decoration-color: orange;">Prope</u></span>rty Description</h4>
+<p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+<hr>
+</div>
+
+<div class="pover">
+<h4><span><u style="text-decoration-color: orange;">Prope</u></span>rty Overview</h4>
+<div class="pull-left">
+<i class="fa fa-caret-right"><span> PRICE</span><strong style="position: relative;left: 205px;">$ 244</strong></i>
+<hr>
+<i class="fa fa-caret-right"><span> CONTACT NAME</span><strong style="position: relative;left: 120px;">ALICE</strong></i>
+<hr>
+<i class="fa fa-caret-right"><span> YEAR BUILT</span><strong style="position: relative;left: 170px;">2003</strong></i>
+<hr>
+<i class="fa fa-caret-right"><span> SOLD</span><strong style="position: relative;left: 220px;">NO</strong></i>
+<hr>
+<i class="fa fa-caret-right"><span> LOCATION</span><strong style="position: relative;left: 80px;">NEW YORK CITY</strong></i>
+<hr>
+<i class="fa fa-caret-right"><span> LOT DIMENSION</span><strong style="position: relative;left: 80px;">20X30X40FT</strong></i>
+<hr>
+<i class="fa fa-caret-right"><span> ROOMS</span><strong style="position: relative;left: 220px;">3</strong></i>
+<hr>
+<i class="fa fa-caret-right"><span> BATHS</span><strong style="position: relative;left: 230px;">1</strong></i>
+<hr>
+</div>
+<div class="pull-right">
+<i class="fa fa-caret-right"><span> REFERENCE</span><strong style="position: relative;left: 175px;">12345</strong></i>
+<hr>
+<i class="fa fa-caret-right"><span> CONTACT PHONE</span><strong style="position: relative;left: 90px;">987 654 3210</strong></i>
+<hr>
+<i class="fa fa-caret-right"><span> TYPE</span><strong style="position: relative;left: 215px;">APART.</strong></i>
+<hr>
+<i class="fa fa-caret-right"><span> CONTRACT</span><strong style="position: relative;left: 180px;">RENT</strong></i>
+<hr>
+<i class="fa fa-caret-right"><span> HOME AREA</span><strong style="position: relative;left: 150px;">140 SQFT</strong></i>
+<hr>
+<i class="fa fa-caret-right"><span> MATERIAL</span><strong style="position: relative;left: 180px;">STONE</strong></i>
+<hr>
+<i class="fa fa-caret-right"><span> BEDS</span><strong style="position: relative;left: 255px;">2</strong></i>
+<hr>
+<i class="fa fa-caret-right"><span> GARAGES</span><strong style="position: relative;left: 225px;">1</strong></i>
+<hr>
+</div>
+</div>
+
+<div class="pamen">
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h4><span><u style="text-decoration-color: orange;">Prope</u></span>rty Amenities</h4>
+<div class="pull-left">
+<i><img width="20" height="20" src="img/air-conditioner.png" alt=""><span> AIR CONDITIONING</span><strong style="position: relative;left: 80px;"><i class="fa fa-check"></i></strong></i>
+<hr>
+<i><img width="20" height="20" src="img/ethernet.png" alt=""><span> CABLE TV.</span><strong style="position: relative;left: 155px;"><i class="fa fa-check"></i></strong></i>
+<hr>
+<i><img width="20" height="20" src="img/monitor.png" alt=""><span> COMPUTER</span><strong style="position: relative;left: 140px;"><i class="fa fa-check"></i></strong></i>
+<hr>
+<i><img width="20" height="20" src="img/elevator.png" alt=""><span> LIFT</span><strong style="position: relative;left: 205px;"><i class="fa fa-check"></i></strong></i>
+<hr>
+</div>
+<div class="pull-right">
+<i><img width="20" height="20" src="img/balcony.png" alt=""><span> BALCONY</span><strong style="position: relative;left: 180px;"><i class="fa fa-check"></i></strong></i>
+<hr>
+<i><img width="20" height="20" src="img/coffee-cup.png" alt=""><span> COFFEE POT</span><strong style="position: relative;left: 150px;"><i class="fa fa-check"></i></strong></i>
+<hr>
+<i><img width="20" height="20" src="img/globe.png" alt=""><span> INTERNET</span><strong style="position: relative;left: 180px;"><i class="fa fa-check"></i></strong></i>
+<hr>
+</div>
+</div>
+<br>
+
+<div class="mapimg">
+	<br><br><br><br>
+<h4><span><u style="text-decoration-color: orange;">Prope</u></span>rty Plans</h4>
+<img id="myImg" src="img/floor.jpg" alt="Map" style="width:100%;max-width:150px">
+<img id="myImgs" src="img/floor.jpg" alt="Map" style="width:100%;max-width:150px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+</div>
+
+<div class="landval">
+	<br><br><br><br>
+	<hr style="color: #898989;width: 700px;margin-left: 330px;opacity: 0.60;">
+<h4><span><u style="text-decoration-color: orange;">Land </u></span>Valuation</h4>	
+<p><span style="border-color: orange orange orange #898989;">80%</span>&nbsp;&nbsp;Health&nbsp;&nbsp;<span style="border-color: orange orange orange #898989;">75%</span>&nbsp;&nbsp;Education&nbsp;&nbsp;<span style="border-color: orange #898989 #898989 #898989;">40%</span>&nbsp;&nbsp;Pollution&nbsp;&nbsp;</p>
+<br>
+</div>
+
+<div class="lfac">
+	<hr style="color: #898989;width: 700px;margin-left: 330px;opacity: 0.60;">
+	<h4><span><u style="text-decoration-color: orange;">Public</u></span> Facilities</h4>
+	<p><span id="port"><span style="background-color: #eeeeee;;padding:12px 60px 10px 30px;">AIRPORT</span><span id="km">2 Km</span></span><span id="stop"><span style="background-color: #eeeeee;;padding:12px 60px 10px 30px;">CPT STOP</span><span id="min"> 1 min</span></span></p>
+	<br>
+</div>
+
+<div class="vid">
+	<hr style="color: #898989;width: 700px;margin-left: 330px;opacity: 0.60;">
+	<h4><u style="text-decoration-color: orange;">Video</u></h4>
+	<iframe width="700" height="350" src="https://www.youtube.com/embed/7JTHzDiJ2NA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="loc">
+    <hr style="color: #898989;width: 700px;margin-left: 330px;opacity: 0.60;">
+	<h4><u style="text-decoration-color: orange;">Location</u></h4>	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.734212255857!2d74.35067521500203!3d31.531459153749665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190504c5d0ab8f%3A0x898f97875a050ae9!2sSIDDIQ%20TRADE%20CENTRE!5e0!3m2!1sen!2s!4v1628790854446!5m2!1sen!2s" width="700" height="350" style="border:0;" allowfullscreen="" loading="lazy" align="left"></iframe>
+</div>
+
+<div class="simip">
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h4><span><u style="text-decoration-color: orange;">Simila</u></span>r Properties</h4>
+<div class="col-md-3 col-sm-6 col xs-12">
+     <div class="rent">FOR RENT</div>
+      <div class="pimg">
+    <img width="427" height="250" src="img/img-1.jpg" alt="" class="image">
+    <h4>BURLINGTON GARDENS</h4>
+    <ul>
+      <li><i><img width="20" height="20" src="img/measure.png" alt="" class="room"> 2 Rooms</i></li>
+      <li><i><img width="20" height="20" src="img/bed.png" alt="" class="bed"> 1 Bed</i></li>
+      <li><i><img width="20" height="20" src="img/bathtub.png" alt="" class="bath"> 1 Bath</i></li>
+    </ul>
+        <hr style="color:#898989;opacity:0.70;width: 75%;">
+        <div class="pull-left">
+      <h3>$ 430 <span style="color:#a0a0a0;background-color: #f1f1f1;"> Apart.</span></h3>
+    </div>
+    <div class="pull-right">
+       <a href="#"><button type="">View Details</button></a>
+    </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-6 col xs-12">
+     <div class="rent">FOR RENT</div>
+      <div class="pimg">
+    <img width="427" height="250" src="img/img-1.jpg" alt="" class="image">
+    <h4>NIGHTSBRIDGE AP.</h4>
+    <ul>
+      <li><i><img width="20" height="20" src="img/measure.png" alt="" class="room"> 2 Rooms</i></li>
+      <li><i><img width="20" height="20" src="img/bed.png" alt="" class="bed"> 2 Bed</i></li>
+      <li><i><img width="20" height="20" src="img/bathtub.png" alt="" class="bath"> 2 Bath</i></li>
+    </ul>
+        <hr style="color:#898989;opacity:0.70;width: 75%;">
+        <div class="pull-left">
+      <h3>$ 430 <span style="color:#a0a0a0;background-color: #f1f1f1;"> Apart.</span></h3>
+    </div>
+    <div class="pull-right">
+       <a href="#"><button type="">View Details</button></a>
+    </div>
+    </div>
+  </div>	
+
+</div>
+
+<div class="reply">
+	<br><br><br>
+	<h4><span><u style="text-decoration-color: orange;">Leave</u></span> a Reply</h4>
+	<p>Your email address will not be published. Required fields are marked *</p>
+	<div class="pull-left">
+		<h5>Name *</h5>
+		<input type="text" name="" value="" placeholder="Your Name:">
+	</div>
+	<div class="pull-right">
+		<h5>Your Email: *</h5>
+		<input type="text" name="" value="" placeholder="Your Email:">
+	</div>
+	<h5 style="margin-left: 130px;color:#484848;font-weight: 400;margin-top: 150px; ">Comment</h5>
+	<textarea name="">YOUR COMMENT:</textarea><br>
+	<div class="bt">
+	<button type="">POST COMMENT</button>
+	</div>
+</div>
+
+</div>
+
+
+<div class="pull-right">
+
+<div class="persons">
+	<img width="230" src="img/person-3.jpg" alt="">
+	<h5>Peter Ruck</h5>
+	<h6>Email: <span style="color: orange;">info@example.com</span></h6>
+	<h6>Phone: <span>123 456 7890</span></h6>
+	<h6>Address: <span>Effectively Real<br><span style="line-height: 30px;">Estate Wardrobe Street</span></span></h6>
+	<i class="fa fa-facebook"></i>&nbsp;<i class="fa fa-twitter"></i>
+	<br>
+	<img width="230" src="img/person-5.jpg" alt="">
+	<h5>Britney Doe</h5>
+	<h6>Email: <span style="color: orange;">info@example.com</span></h6>
+	<h6>Phone: <span>+123-456-7890</span></h6>
+	<h6>Address: <span>Effectively Real<br><span style="line-height: 30px;">Estate Wardrobe Street</span></span></h6>
+	<i class="fa fa-facebook"></i>&nbsp;<i class="fa fa-twitter"></i>
+</div>
+
+<div class="categ">
+	<h5><u style="text-decoration-color: orange;">CATE</u>GORIES</h5>
+	<a href="#"><h6>Construction</h6></a>
+	<a href="#"><h6>Home Inspection</h6></a>
+	<a href="#"><h6>Land Administration</h6></a>
+	<a href="#"><h6>Mortage</h6></a>
+</div>
+
+<div class="ptype">
+  <h5><u style="text-decoration-color: orange;">PROPE</u>RTY TYPES</h5>
+  <a href="">Apart.<i class="fa fa-angle-right"></i></a>
+  <hr>
+  <a href="">House<i class="fa fa-angle-right"></i></a>
+  <hr>
+  <a href="">Villa&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i></a>
+
+</div>
+
+<div class="loca">
+	<h5><u style="text-decoration-color: orange;">LOCA</u>TIONS</h5>
+	<a href="#"><h6>Dubai / Dubai</h6></a>
+	<a href="#"><h6>London / London</h6></a>
+	<a href="#"><h6>New York City</h6></a>
+	<a href="#"><h6>Paris / Paris</h6></a>
+	<a href="#"><h6>ROme / Rome</h6></a>
+</div>	
+<div class="contc">
+	<h5><u style="text-decoration-color: orange;">CONT</u>ACT</h5>
+	<input type="text" name="" value="" placeholder="NAME" required="required"><br><br>
+	<input type="text" name="" value="" placeholder="EMAIL" required="required"><br><br>
+	<input type="number" name="" value="" placeholder="PHONE" required="required"><br><br>
+	<textarea name="" placeholder="MESSAGE"></textarea><br><br>
+	<button type="button">SEND MESSAGE</button>
+</div>
+
+<div class="calc">
+	<h5><u style="text-decoration-color: orange;">CALC</u>ULATOR</h5>
+	<input type="number" name="" value="" placeholder="25000"><i class="fa fa-money"></i><br><br>
+	<input type="number" name="" value="" placeholder="DOWN"><i class="fa fa-money"></i><br><br>
+	<input type="number" name="" value="" placeholder="LOAN TERM(YEAR)"><i class="fa fa-calendar"></i><br><br>
+	<input type="number" name="" value="" placeholder="INTERSET"><i class="fa fa-percent"></i><br><br>
+	<button type="">CALCULATE</button>
+</div>
+
+<div class="prop">
+	<h5><u style="text-decoration-color: orange;">PROPE</u>RTIES</h5>
+	<a href="#"><img width="90" height="90" src="img/img-2.jpg" alt=""> Via Di Boccea St.<br><span>Rome</span></a><hr>
+	<a href="#"><img width="90" height="90" src="img/img-2.jpg" alt=""> KnightBridge Ap.<br><span>London</span></a><hr>
+	<a href="#"><img width="90" height="90" src="img/img-2.jpg" alt=""> Rue Di Rivoli Str.<br><span>Paris</span></a>	
+</div>
+
+</div>
+</div>
+
+<footer>
+<div class="container">
+  <div class="row" style="padding-top: 20px; margin-left: 100px;">
+
+    <div class="footer-leftl">
+  <div class="col-lg-3 col-md-3" style="opacity: 0.60; font-size: 15px; color: #fff;line-height: 6px;">
+    <h2>Expert Estate</h2>
+    <h4 style="font-size: 20px;">Real Estate Theme</h4>
+    <p>Gulgerb 3,Lahore.</p>
+    <p><i class="fa fa-phone">&nbsp;&nbsp;Telp:(042) 634 6790 10</i></p>
+    <span class="fa fa-envelope-o">&nbsp;&nbsp;Email:info@example.com</span>
+    <div class="fsocial">
+    <ul class="footer-social" style="justify-content: center;">
+        <li>
+          <a href="#">
+            <i class="fa fa-twitter" style="padding-right:0px;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-facebook" style="padding-left: 20px;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-google-plus" style="padding-left: 20px;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-linkedin" style="padding-left: 20px;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-pinterest" style="padding-left: 20px;"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+    </div>
+    <div class="footer-leftr">
+    <div class="col-lg-3 col-md-3" style="opacity: 0.60; font-size: 15px; color: #fff;align-items: center;">
+      <h4 style="font-size: 17px;"><u style="text-decoration-color: yellow;">DASH</u>BOARD</h4>
+      <div class="dash">
+      <ul style="list-style: none;">
+        <li><a href="#">My Properties</a></li>
+        <li><a href="#">Create Property</a></li>        
+        <li><a href="#">Edit Property</a></li>
+        <li><a href="#">Edit Agent Profile</a></li>
+        <li><a href="#">Edit User Profile</a></li>
+        <li><a href="#">Chnage Password</a></li>
+        <li><a href="#">Payment</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </div>
+</div>
+</div>
+<div class="footer-rightl">
+<div class="col-lg-3 col-md-3" style="opacity: 0.60; font-size: 15px; color: #fff;align-items: center;">
+  <h4 style="font-size: 17px;"><u style="text-decoration-color: yellow;">CATE</u>GORIES</h4>
+  <div class="categ">
+    <ul style="list-style: none;">
+        <li><a href="#">Construction</a></li>
+        <li><a href="#">Home Inspection</a></li>
+        <li><a href="#">Land Administration</a></li>
+        <li><a href="#">Mortage</a></li>
+    </ul>
+  </div>
+    </div>
+  </div>
+  <div class="footer-rightr">
+    <div class="col-lg-3 col-md-3" style="opacity: 0.60; font-size: 15px; color: #fff;align-items: center;">
+    <h4 style="font-size: 17px;"><u style="text-decoration-color: yellow;">QUIC</u>K LINKS</h4>
+    <div class="quick">
+    <ul style="list-style: none;">
+        <li><a href="#">About US</a></li>
+        <li><a href="#">Advertising team</a></li>
+        <li><a href="#">Go Mobile With Expert Estate</a></li>
+        <li><a href="#">Listings Quality Policies</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+    </ul>
+  </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+</footer>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+
+</script>
+
+</body>
+</html>
